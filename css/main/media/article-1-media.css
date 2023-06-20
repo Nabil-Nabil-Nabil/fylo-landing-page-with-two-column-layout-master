@@ -1,0 +1,47 @@
+@media (min-width: 1100px) {
+    main .article-1 {
+        padding-left: 62px;
+
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .article-1 .img-div {
+        max-width: 743px;
+        padding-right: 55px;
+    }
+
+    .article-1 .content-and-inputs {
+        width: 88%;
+        padding-top: 73px;
+    }
+
+    .article-1 .content {
+        text-align: left;
+        max-width: 93%;
+    }
+
+    .article-1 .content .header {
+        font-size: 37px;
+        line-height: 60px;
+    }
+
+    .article-1 .content .paragraph {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .article-1 .inputs-div {
+        flex-direction: row;
+    }
+
+    .article-1 .inputs-div input {
+        width: 54%;
+        font-size: 16px;
+    }
+
+    .article-1 .inputs-div button {
+        width: 34%;
+        font-size: 16px;
+    }
+}

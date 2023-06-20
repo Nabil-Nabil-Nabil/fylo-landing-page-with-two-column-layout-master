@@ -1,0 +1,72 @@
+main .article-1 {
+    margin: 0 24px;
+    display: grid;
+    justify-items: center;
+}
+
+/* Image Div ---------------------------- */
+.article-1 .img-div {
+
+    margin-top: 75px;
+    max-width: 304px;
+}
+
+/* Content And Inputs Div --------------- */
+.article-1 .content-and-inputs {
+    margin-top: 41px;
+}
+
+/* Content Div */
+.article-1 .content {
+    text-align: center;
+}
+
+.article-1 .content .header {
+    font-family: var(--Open-Sans);
+    font-weight: var(--fw-700);
+    color: var(--Very-Dark-Blue);
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.article-1 .content .paragraph {
+    font-family: var(--Open-Sans);
+    font-weight: var(--fw-400);
+    font-size: 14px;
+    color: var(--Very-Dark-Blue);
+    margin-top: 25px;
+    padding: 0 10px;
+    word-spacing: 1px;
+    line-height: 21px;
+}
+
+/* Input Div ------------------------------ */
+.article-1 .inputs-div {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0 13px;
+}
+
+.article-1 .inputs-div input {
+    border: 1px solid var(--Very-Dark-Blue);
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-size: 13px;
+}
+
+.article-1 .inputs-div input::placeholder {
+    color: var(--Light-Gray);
+}
+
+.article-1 .inputs-div button {
+    border: none;
+    font-size: 14px;
+    color: var(--Light-Grayish-Blue);
+    background: var(--Bright-Blue);
+    padding: 12px 0px;
+    border-radius: 6px;
+    font-family: var(--Open-Sans);
+    font-weight: var(--fw-700);
+}

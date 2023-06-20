@@ -1,0 +1,48 @@
+footer {
+    background: var(--Very-Dark-Blue);
+    padding: 65px 40px 55px;
+    color: white;
+}
+
+footer .info-div .logo-div {
+    margin-bottom: 43px;
+}
+
+footer .info-div .logo-div img {
+    width: 176px;
+    filter: invert(46%) sepia(199%) saturate(0%) hue-rotate(0deg) brightness(178%) contrast(199%);
+
+}
+
+footer .info-div .phone-div,
+footer .info-div .email-div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+footer .list-div {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+footer .list-div .list-1 li,
+footer .list-div .list-2 li {
+    padding: 9px 0;
+}
+
+footer .list-div .list-1 a,
+footer .list-div .list-2 a {
+    text-decoration: none;
+    color: var(--Light-Grayish-Blue);
+}
+
+footer .icons-div {
+    margin-top: 39px;
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+}

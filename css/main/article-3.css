@@ -1,0 +1,59 @@
+main .article-3 {
+    background: var(--Desaturated-Blue);
+    padding-top: 51px;
+    padding-bottom: 57px;
+    text-align: center;
+}
+
+/* Content Div ---------------------------- */
+.article-3 .content {}
+
+/* Header */
+.article-3 .content .header {
+    font-family: var(--Open-Sans);
+    font-weight: var(--fw-700);
+    color: var(--Light-Grayish-Blue);
+    font-size: 18px;
+}
+
+/* Paragraph */
+.article-3 .content .paragraph {
+    font-family: var(--Open-Sans);
+    font-weight: var(--fw-400);
+    font-size: 14px;
+    color: var(--Light-Grayish-Blue);
+    margin-top: 20px;
+    line-height: 21px;
+    padding: 0 43px;
+}
+
+/* Inputs Div ----------------------------- */
+.article-3 .inputs-div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 67px;
+}
+
+.article-3 .inputs-div input {
+    margin-top: 30px;
+    border: 1px solid var(--Very-Dark-Blue);
+    padding: 10px 10px;
+    border-radius: 2px;
+    font-size: 11px;
+}
+
+.article-3 .inputs-div input::placeholder {
+    color: var(--Light-Gray);
+}
+
+.article-3 .inputs-div button {
+    border: none;
+    font-size: 11px;
+    color: var(--Light-Grayish-Blue);
+    background: var(--Bright-Blue);
+    padding: 10px 0px;
+    border-radius: 2px;
+    font-family: var(--Open-Sans);
+    font-weight: var(--fw-700);
+}

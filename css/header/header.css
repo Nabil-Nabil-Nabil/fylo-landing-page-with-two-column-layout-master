@@ -1,0 +1,24 @@
+header {
+    padding: 24px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 80px;
+}
+
+header .links-div {
+    display: flex;
+    gap: 24px;
+
+}
+
+header .links-div a {
+    text-decoration: none;
+    font-family: var(--Raleway);
+    color: var(--Very-Dark-Blue);
+    font-weight: var(--fw-400);
+    font-size: 12px;
+}

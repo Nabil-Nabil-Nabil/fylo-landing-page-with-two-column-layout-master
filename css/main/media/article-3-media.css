@@ -1,0 +1,37 @@
+@media (min-width: 1100px) {
+    main .article-3 {
+        padding: 100px 0;
+        display: flex;
+    }
+
+    .article-3 .content {
+        max-width: 50%;
+        text-align: left;
+        padding-left: 86px;
+    }
+
+    .article-3 .content .header {
+        font-size: 30px;
+    }
+
+    .article-3 .content .paragraph {
+
+        padding: 0;
+        max-width: 78%;
+        font-size: 16px;
+    }
+
+    .article-3 .inputs-div {
+        width: 50%;
+    }
+
+    .article-3 .inputs-div input {
+        width: 80%;
+        font-size: 16px;
+    }
+
+    .article-3 .inputs-div button {
+        width: 40%;
+        font-size: 16px;
+    }
+}
