@@ -1,7 +1,12 @@
 main .article-1 {
-    margin: 0 24px;
+    padding: 0 24px 120px;
     display: grid;
     justify-items: center;
+
+    background-image: url(/images/bg-curve-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
 }
 
 /* Image Div ---------------------------- */
